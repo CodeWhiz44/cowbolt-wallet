@@ -1,0 +1,68 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# Node modules
+/node_modules
+/crypto-wallet-frontend/node_modules
+/crypto-wallet-backend/node_modules
+
+# Build outputs
+/crypto-wallet-frontend/build
+/crypto-wallet-backend/build
+/crypto-wallet-backend/dist
+
+# Testing
+/crypto-wallet-frontend/coverage
+/crypto-wallet-backend/coverage
+/crypto-wallet-backend/.nyc_output
+
+# Logs
+*.log
+logs
+npm-debug.log*
+pnpm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# OS
+.DS_Store
+
+# IDEs and editors
+/.idea
+/crypto-wallet-backend/.idea
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+/*.sublime-workspace
+
+# IDE - VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# dotenv environment variable files
+.env
+/crypto-wallet-frontend/.env.local
+/crypto-wallet-frontend/.env.development.local
+/crypto-wallet-frontend/.env.test.local
+/crypto-wallet-frontend/.env.production.local
+/crypto-wallet-backend/.env
+/crypto-wallet-backend/.env.development.local
+/crypto-wallet-backend/.env.test.local
+/crypto-wallet-backend/.env.production.local
+/crypto-wallet-backend/.env.local
+
+# Temp files
+/tmp
+/temp
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
